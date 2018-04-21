@@ -2,9 +2,22 @@
 /*                   BASIC STYLES                       */
 /********************************************************/
 
-
 .wrapper {
     width: 80%;
     height: auto;
-    margin: 0 auto;
+    margin: 1.5em auto;
+}
+
+/************* NAVBAR ***************/
+
+
+/********************************************************/
+/*                  INDEX PAGE                          */
+/********************************************************/
+
+.jumbotron {
+    background-image: url("https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 60%;    
 }
