@@ -7,7 +7,12 @@ body {
 .wrapper {
     width: 80%;
     height: auto;
-    margin: 0 auto;
+    margin: 1em auto;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
 }
 
 /************* NAVBAR ***************/
@@ -24,9 +29,20 @@ body {
 /*                  INDEX PAGE                          */
 /********************************************************/
 
-.jumbotron {
-    background-image: url("https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: no-repeat;
-    background-position-x: 80%;
-    background-position-y: 60%;    
+.sample-row {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-between;
 }
+
+.sample-item {
+    width: 300px;    
+}
+
+.sample-img {
+    height: 200px;
+    padding-bottom: 0.5em;
+    border-radius: 50%;
+}
+
